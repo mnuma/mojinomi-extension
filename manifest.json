@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "文字のみ君",
+  "version": "1.0",
+  "description": "Save current page's text content as .txt file",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Save Page as Text"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
